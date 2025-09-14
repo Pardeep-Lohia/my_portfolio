@@ -210,7 +210,7 @@ class AchievementsScreen extends StatelessWidget {
               // Achievement Stats
               Row(
                 children: [
-                  _buildStatCard("Certifications", "4", Colors.blue),
+                  _buildStatCard("Certifications", "3", Colors.blue),
                   const SizedBox(width: 12),
                   _buildStatCard("Hackathons", "2", Colors.green),
                   const SizedBox(width: 12),
