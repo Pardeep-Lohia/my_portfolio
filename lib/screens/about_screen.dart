@@ -68,7 +68,7 @@ class AboutScreen extends StatelessWidget {
                           : isTablet
                           ? 60
                           : 70,
-                      backgroundImage: const AssetImage('assets/demouse.jpg'),
+                      backgroundImage: const AssetImage('assets/Pardeep_Lohia.jpeg'),
                       backgroundColor: Colors.amber,
                     ),
                     const SizedBox(height: 16),
