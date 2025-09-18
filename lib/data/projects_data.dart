@@ -29,7 +29,7 @@ class ProjectData {
           "EdTech platform developed during a hackathon for collaborative learning and engagement.",
       "tech": ["Flutter", "Firebase"],
       "github": "https://github.com/Pardeep-Lohia/Project_Submition_CGC/tree/main/flutter_application_1",
-      "deployed": "https://example.com/deployed-edusphere",
+      "deployed": "https://edusphere-web.vercel.app/",
       "color": Colors.purple,
       "icon": Icons.school,
       "status": "Hackathon Winner",
