@@ -15,7 +15,7 @@ class SkillsScreen extends StatelessWidget {
   }
 
   final List<Map<String, dynamic>> skills = const [
-    {"name": "Flutter", "level": 90, "color": Colors.blue, "category": "Mobile Development"},
+    {"name": "Flutter", "level": 90, "color": Colors.blue, "category": "Frameworks and Tools"},
     {"name": "Dart", "level": 90, "color": Colors.blue, "category": "Programming"},
     {"name": "Firebase", "level": 80, "color": Colors.orange, "category": "Backend"},
     {"name": "Java", "level": 75, "color": Colors.red, "category": "Programming"},
@@ -25,8 +25,8 @@ class SkillsScreen extends StatelessWidget {
     // {"name": "OpenCV", "level": 60, "color": Colors.teal, "category": "AI/ML"},
     {"name": "DSA", "level": 70, "color": Colors.indigo, "category": "Core CS"},
     {"name": "Problem-Solving", "level": 80, "color": Colors.amber, "category": "Soft Skills"},
-    {"name": "OOP", "level": 75, "color": Colors.cyan, "category": "Programming"},
-    {"name": "C", "level": 65, "color": Colors.grey, "category": "Programming"},
+    {"name": "OOP", "level": 75, "color": Colors.cyan, "category": "Core CS"},
+    {"name": "SDLC and Agile", "level": 65, "color": Colors.grey, "category": "Core CS"},
     // {"name": "Spring Boot", "level": 60, "color": Colors.green, "category": "Backend"},
     // {"name": "Tkinter", "level": 55, "color": Colors.lightBlue, "category": "GUI"},
     // {"name": "Swing", "level": 50, "color": Colors.brown, "category": "GUI"},
