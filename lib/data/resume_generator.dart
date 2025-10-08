@@ -368,32 +368,32 @@ pw.Text(
       ),
     );
   }
-  pw.Container(
-  padding: const pw.EdgeInsets.symmetric(vertical: 10),
-  child: pw.Column(
-    crossAxisAlignment: pw.CrossAxisAlignment.start,
-    children: [
-      pw.Text(
-        'My Portfolio Website',
-        style: pw.TextStyle(
-          fontSize: 14,
-          fontWeight: pw.FontWeight.bold,
-          font: pw.Font.helveticaBold(),
-        ),
-      ),
-      pw.Divider(),
-      pw.Text(
-        'Scan the QR code below to visit my portfolio website.',
-        style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
-      ),
-      pw.BarcodeWidget(
-        data: 'https://your-portfolio-link.com',
-        barcode: pw.Barcode.qrCode(),
-        width: 60,
-        height: 60,
-      // ),
-    ],
-  ),
-),
+//   pw.Container(
+//   padding: const pw.EdgeInsets.symmetric(vertical: 10),
+//   child: pw.Column(
+//     crossAxisAlignment: pw.CrossAxisAlignment.start,
+//     children: [
+//       pw.Text(
+//         'My Portfolio Website',
+//         style: pw.TextStyle(
+//           fontSize: 14,
+//           fontWeight: pw.FontWeight.bold,
+//           font: pw.Font.helveticaBold(),
+//         ),
+//       ),
+//       pw.Divider(),
+//       pw.Text(
+//         'Scan the QR code below to visit my portfolio website.',
+//         style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+//       ),
+//       pw.BarcodeWidget(
+//         data: 'https://your-portfolio-link.com',
+//         barcode: pw.Barcode.qrCode(),
+//         width: 60,
+//         height: 60,
+//       // ),
+//     ],
+//   ),
+// ),
 
 }
