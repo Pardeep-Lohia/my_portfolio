@@ -62,7 +62,7 @@ class ResumeGenerator {
                     ),
                     pw.Divider(),
                     pw.Text(
-                      'Passionate Flutter developer with strong experience in mobile app development. Core member of GDSC Punjabi University, actively contributing to the tech community through Flutter development and mentorship. Expertise spans Flutter, Firebase, Java, MySQL, with a focus on creating innovative solutions and problem-solving.',
+                      'B.Tech Computer Science student with hands-on experience in Flutter, Java, Firebase, and MySQL. Skilled in the full Software Development Life Cycle — requirements gathering, design, coding, unit testing, and deployment. Experienced in Agile Scrum, peer code reviews, and documentation. Built cross-platform mobile and desktop apps and won multiple hackathons. Eager to learn and contribute to enterprise web and desktop applications as an Associate Software Engineer at H&R Block.',
                       style: pw.TextStyle(
                         fontSize: 10,
                         font: pw.Font.helvetica(),
@@ -157,17 +157,26 @@ class ResumeGenerator {
                     ),
                     pw.Divider(),
                     pw.Text(
-                      'Programming Languages: Dart (90%), Java (75%), Python (70%), C (65%)',
-                      style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
-                    ),
-                    pw.Text(
-                      'Frameworks & Tools: Flutter (90%), Firebase (80%), MySQL (75%)',
-                      style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
-                    ),
-                    pw.Text(
-                      'Core Concepts: DSA (80%), OOP (75%), Problem-Solving (80%)',
-                      style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
-                    ),
+  'Programming Languages: Dart, Java, Python, C',
+  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+),
+pw.Text(
+  'Frameworks & Platforms: Flutter, Firebase, APIs',
+  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+),
+pw.Text(
+  'Database & Cloud: MySQL, Firebase Firestore',
+  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+),
+pw.Text(
+  'Developer Tools & Environment: VS Code, Android Studio, Git, GitHub, Postman, Vercel, Firebase Console',
+  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+),
+pw.Text(
+  'Core Concepts: Data Structures & Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Software Development Life Cycle (SDLC), Agile Methodology',
+  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+),
+
                   ],
                 ),
               ),
@@ -359,4 +368,32 @@ class ResumeGenerator {
       ),
     );
   }
+  pw.Container(
+  padding: const pw.EdgeInsets.symmetric(vertical: 10),
+  child: pw.Column(
+    crossAxisAlignment: pw.CrossAxisAlignment.start,
+    children: [
+      pw.Text(
+        'My Portfolio Website',
+        style: pw.TextStyle(
+          fontSize: 14,
+          fontWeight: pw.FontWeight.bold,
+          font: pw.Font.helveticaBold(),
+        ),
+      ),
+      pw.Divider(),
+      pw.Text(
+        'Scan the QR code below to visit my portfolio website.',
+        style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
+      ),
+      pw.BarcodeWidget(
+        data: 'https://your-portfolio-link.com',
+        barcode: pw.Barcode.qrCode(),
+        width: 60,
+        height: 60,
+      // ),
+    ],
+  ),
+),
+
 }
