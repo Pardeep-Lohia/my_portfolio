@@ -165,10 +165,6 @@ pw.Text(
   style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
 ),
 pw.Text(
-  'Database & Cloud: MySQL, Firebase Firestore',
-  style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
-),
-pw.Text(
   'Developer Tools & Environment: VS Code, Android Studio, Git, GitHub, Postman, Vercel, Firebase Console',
   style: pw.TextStyle(fontSize: 10, font: pw.Font.helvetica()),
 ),
