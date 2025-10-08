@@ -227,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           label: const Text("Contact Me"),
                         ),
                         Padding(
-                          padding: MediaQuery.of(context).size.width <630 ? const EdgeInsets.all(8.0):const EdgeInsets.all(0),
+                          // padding: MediaQuery.of(context).size.width <630 ? const EdgeInsets.all(8.0):const EdgeInsets.all(0),
                           // padding:const EdgeInsets.all(8.0),
                           child: Container(
                             // width: MediaQuery.of(context).size.width <630 ? 260:50,
