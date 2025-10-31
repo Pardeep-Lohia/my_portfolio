@@ -40,7 +40,7 @@ class ProjectData {
       "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers using RAG and Gemini integration.",
   "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
   "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", // replace with your actual repo link if different
-  "deployed": "https://example.com/deployed-StudyBuddy", // replace if deployed elsewhere
+  "deployed": "https://example.com/deployed-studybuddy", // replace if deployed elsewhere
   "color": Colors.blueAccent,
   "icon": Icons.psychology,
   "status": "In Development",
