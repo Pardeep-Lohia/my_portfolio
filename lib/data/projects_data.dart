@@ -35,16 +35,16 @@ class ProjectData {
       "status": "Hackathon Winner",
     },
     {
-  "title": "StudyBuddy",
-  "description":
-      "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers using RAG and Gemini integration.",
+     "title": "StudyBuddy",
+      "description":
+        "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
   "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
-  "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", // replace with your actual repo link if different
-  "deployed": "https://example.com/deployed-studybuddy", // replace if deployed elsewhere
+  "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
+  "deployed": "https://example.com/deployed-studybuddy", 
   "color": Colors.blueAccent,
   "icon": Icons.psychology,
   "status": "In Development",
-},
+   },
 
     // {
     //   "title": "Mess Account Management System",
