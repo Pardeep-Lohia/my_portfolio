@@ -27,9 +27,9 @@ class SkillsScreen extends StatelessWidget {
     {"name": "Problem-Solving", "level": 80, "color": Colors.amber, "category": "Soft Skills"},
     {"name": "OOP", "level": 75, "color": Colors.cyan, "category": "Core CS"},
     {"name": "SDLC and Agile", "level": 65, "color": Colors.grey, "category": "Core CS"},
-    // {"name": "Spring Boot", "level": 60, "color": Colors.green, "category": "Backend"},
-    // {"name": "Tkinter", "level": 55, "color": Colors.lightBlue, "category": "GUI"},
-    // {"name": "Swing", "level": 50, "color": Colors.brown, "category": "GUI"},
+    {"name": "ChromaDB", "level": 60, "color": Colors.green, "category": "Database"},
+    {"name": "FastAPI", "level": 55, "color": Colors.lightBlue, "category": "Frameworks and Tools"},
+    {"name": "RAG System", "level": 50, "color": Colors.brown, "category": "Frameworks and Tools"},
   ];
 
   @override
