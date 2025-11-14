@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 
 class ProjectData {
   static const List<Map<String, dynamic>> projects = [
-    {
-      "title": "EnggiQuest",
-      "description":
-          "Quiz app for GATE preparation with branch-specific modes, query search using Gemini API, and Firebase backend.",
-      "tech": ["Flutter", "Firebase", "Gemini API"],
-      "github": "https://github.com/MadirakshiJain/quiz_app_1",
-      "deployed": "https://example.com/deployed-enggiquest",
-      "color": Colors.blue,
-      "icon": Icons.quiz,
-      "status": "Completed",
-    },
+    // {
+    //   "title": "EnggiQuest",
+    //   "description":
+    //       "Quiz app for GATE preparation with branch-specific modes, query search using Gemini API, and Firebase backend.",
+    //   "tech": ["Flutter", "Firebase", "Gemini API"],
+    //   "github": "https://github.com/MadirakshiJain/quiz_app_1",
+    //   "deployed": "https://example.com/deployed-enggiquest",
+    //   "color": Colors.blue,
+    //   "icon": Icons.quiz,
+    //   "status": "Completed",
+    // },
     // {
     //   "title": "Sign Language Learning App",
     //   "description": "AI-powered app for learning sign language with dictionary, quotes, word of the day, and posture correction.",
@@ -34,17 +34,17 @@ class ProjectData {
       "icon": Icons.school,
       "status": "Hackathon Winner",
     },
-    {
-     "title": "StudyBuddy",
-      "description":
-        "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
-       "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
-       "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
-       "deployed": "https://example.com/deployed-studybuddy", 
-       "color": Colors.blueAccent,
-      "icon": Icons.psychology,
-      "status": "Completed",
-   },
+   //  {
+   //   "title": "StudyBuddy",
+   //    "description":
+   //      "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
+   //     "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
+   //     "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
+   //     "deployed": "https://example.com/deployed-studybuddy", 
+   //     "color": Colors.blueAccent,
+   //    "icon": Icons.psychology,
+   //    "status": "Completed",
+   // },
 
     // {
     //   "title": "Mess Account Management System",
