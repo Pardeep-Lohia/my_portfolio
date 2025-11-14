@@ -34,17 +34,17 @@ class ProjectData {
       "icon": Icons.school,
       "status": "Hackathon Winner",
     },
-   //  {
-   //   "title": "StudyBuddy",
-   //    "description":
-   //      "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
-   //     "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
-   //     "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
-   //     "deployed": "https://example.com/deployed-studybuddy", 
-   //     "color": Colors.blueAccent,
-   //    "icon": Icons.psychology,
-   //    "status": "Completed",
-   // },
+    {
+     "title": "StudyBuddy",
+      "description":
+        "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
+       "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
+       "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
+       "deployed": "https://example.com/deployed-studybuddy", 
+       "color": Colors.blueAccent,
+      "icon": Icons.psychology,
+      "status": "Completed",
+   },
 
     // {
     //   "title": "Mess Account Management System",
@@ -80,18 +80,22 @@ class ProjectData {
 
   static Map<String, List<String>> getSkillProjectMapping() {
     return {
-      "Flutter": ["EnggiQuest", "Sign Language Learning App", "EduSphere"],
+      "Flutter": ["EnggiQuest", "Sign Language Learning App", "EduSphere","StudyBuddy"],
       "Firebase": ["EnggiQuest", "Sign Language Learning App", "EduSphere"],
       "Java": ["Mess Account Management System"],
       "Python": [
         "Student Management System",
         "Motion Detection & Character Animation",
       ],
-      "Dart": ["EnggiQuest", "Sign Language Learning App", "EduSphere"],
+      "Dart": ["EnggiQuest", "Sign Language Learning App", "EduSphere","StudyBuddy"],
       "MySQL": ["Mess Account Management System", "Student Management System"],
       "MediaPipe": ["Motion Detection & Character Animation"],
       "OpenCV": ["Motion Detection & Character Animation"],
       "Tkinter": ["Student Management System"],
+      "ChromaDB":["StudyBuddy"],
+      "FastAPI": ["StudyBuddy","EduSphere"],
+      "RAG System": ["StudyBuddy"],
+      // "Flutter", "FastAPI", "Gemini API", "ChromaDB"
     };
   }
 
