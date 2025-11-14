@@ -38,12 +38,12 @@ class ProjectData {
      "title": "StudyBuddy",
       "description":
         "An intelligent study companion that helps students organize notes, ask AI-based questions, and get contextual answers.",
-  "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
-  "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
-  "deployed": "https://example.com/deployed-studybuddy", 
-  "color": Colors.blueAccent,
-  "icon": Icons.psychology,
-  "status": "In Development",
+       "tech": ["Flutter", "FastAPI", "Gemini API", "ChromaDB"],
+       "github": "https://github.com/Pardeep-Lohia/newCloudCosmos", 
+       "deployed": "https://example.com/deployed-studybuddy", 
+       "color": Colors.blueAccent,
+      "icon": Icons.psychology,
+      "status": "Completed",
    },
 
     // {
